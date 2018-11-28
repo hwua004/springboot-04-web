@@ -10,6 +10,8 @@ import java.util.Map;
 public class UserController {
     @RequestMapping("/user/login")
     public String login(String username,String password,HttpSession session,Map map){
+        //String str=null;
+        //str.length();
         System.out.println(username);
         System.out.println(password);
         if("admin".equals(username) && "123456".equals(password)){
