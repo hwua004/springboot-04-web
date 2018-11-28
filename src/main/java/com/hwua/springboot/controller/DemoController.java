@@ -6,7 +6,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class DemoController {
-    @RequestMapping("/hello.html")
+    @RequestMapping("/hello")
     public ModelAndView demo(){
         ModelAndView mv= new ModelAndView();
         mv.addObject("username","admin");
